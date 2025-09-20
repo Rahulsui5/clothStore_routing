@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useLoaderData } from 'react-router-dom'
 import clothes from "../assets/data";
 const MenCloths = () => {
-        const cloths=clothes[men]
+        const cloths=clothes.men
   return (
     <div className='flex justify-center'>
         <div className="p-6 w-full max-w-7xl">
